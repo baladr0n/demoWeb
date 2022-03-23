@@ -1,0 +1,59 @@
+<html>
+	<div align="center">
+			<h1>RUBIK'S THE BEST</h1>
+		</div>
+	<head>
+		<title>P&aacute;gina Web</title>
+		<link href="estilo1.css" rel="stylesheet" type="text/css">
+	</head>
+	<body style="background-color:white">
+		<div>
+			<img class="banner" src="imagenes/aaa.png">
+		</div>
+		<br>
+		<div align="right">
+			<a href="index.html">Inicio</a>
+			<a href="Pagina2.html">Novedades</a>
+			<a href="Pagina3.html">Contacto e inico de sesión</a>
+		</div>
+		<br>
+		<div>
+				VISITANOS PRONTO!
+		</div>
+		<br>
+		<table width="100%">
+			<tr>
+				<td class="mapa">
+					<div>
+						<iframe src="https://goo.gl/maps/kw6D81jqZWgtKwha7" width="600" height="600" style="border:0;" allowfullscreen="yes" loading="lazy"></iframe>
+					</div>
+				</td>
+				<td class="formulario">
+					<div>
+						<form action="index.html" method="post">
+							<fieldset>
+								<legend>Inicio de sesión</legend>
+								Correo Electrónico: <input type="text">
+								<br>
+								Contraseña: <input type="password">
+								<br>
+								<input type="button" value="Entrar">
+								<br>
+								<input type="button" value="Registrarse">
+							</fieldset>
+						</form>
+					</div>
+				</td>
+			</tr>
+		</table>
+		<br>
+		<div align="center">
+			baladr0n
+			<br>
+			<script>
+				var f = new Date();
+				document.write(f.getDate() + "/" + (f.getMonth() +1) + "/" + f.getFullYear());
+			</script>
+		</div>
+	</body>
+</html>
